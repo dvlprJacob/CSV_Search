@@ -1,0 +1,5 @@
+Name String; Address String; BirthDate Date; Age Integer
+Jack Smith; First street, USA; 2000.11.12; 16
+Jack Lin; second street, USA; 2001.10.2; 15
+Matiew Smith; First street, Europe; 1980.11.9; 36
+Mary Cramer; First street, Paris; 1960.1.1; 56

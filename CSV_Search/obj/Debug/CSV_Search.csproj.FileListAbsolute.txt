@@ -1,0 +1,9 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\CSV_Search\CSV_Search\bin\Debug\CSV_Search.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\CSV_Search\CSV_Search\bin\Debug\CSV_Search.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\CSV_Search\CSV_Search\bin\Debug\CSV_Search.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\CSV_Search\CSV_Search\obj\Debug\CSV_Search.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\CSV_Search\CSV_Search\obj\Debug\CSV_Search.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\CSV_Search\CSV_Search\obj\Debug\CSV_Search.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\CSV_Search\CSV_Search\bin\Debug\CSV.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\CSV_Search\CSV_Search\bin\Debug\CSV.pdb
+C:\Users\Lenovo\documents\visual studio 2015\Projects\CSV_Search\CSV_Search\bin\Debug\New.Instance.dll
