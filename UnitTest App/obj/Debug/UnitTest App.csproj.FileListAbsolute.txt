@@ -1,0 +1,11 @@
+C:\Users\Lenovo\documents\visual studio 2015\Projects\CSV_Search\UnitTest App\bin\Debug\UnitTest App.dll
+C:\Users\Lenovo\documents\visual studio 2015\Projects\CSV_Search\UnitTest App\bin\Debug\UnitTest App.pdb
+C:\Users\Lenovo\documents\visual studio 2015\Projects\CSV_Search\UnitTest App\bin\Debug\CSV.dll
+C:\Users\Lenovo\documents\visual studio 2015\Projects\CSV_Search\UnitTest App\bin\Debug\CSV_Search.exe
+C:\Users\Lenovo\documents\visual studio 2015\Projects\CSV_Search\UnitTest App\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Lenovo\documents\visual studio 2015\Projects\CSV_Search\UnitTest App\bin\Debug\CSV_Search.pdb
+C:\Users\Lenovo\documents\visual studio 2015\Projects\CSV_Search\UnitTest App\bin\Debug\CSV.pdb
+C:\Users\Lenovo\documents\visual studio 2015\Projects\CSV_Search\UnitTest App\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Lenovo\documents\visual studio 2015\Projects\CSV_Search\UnitTest App\obj\Debug\UnitTest App.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\documents\visual studio 2015\Projects\CSV_Search\UnitTest App\obj\Debug\UnitTest App.dll
+C:\Users\Lenovo\documents\visual studio 2015\Projects\CSV_Search\UnitTest App\obj\Debug\UnitTest App.pdb

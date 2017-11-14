@@ -1,5 +1,21 @@
 Name String; Address String; BirthDate Date; Age Integer
-Jack Smith; First street, USA; 2000.11.12; 16
-Jack Lin; second street, USA; 2001.10.2; 15
-Matiew Smith; First street, Europe; 1980.11.9; 36
-Mary Cramer; First street, Paris; 1960.1.1; 56
+Matiew Smith; First street, Europe 3; 1986.11.9; 33
+Jack Smith; First street, USA 1; 2000.11.12; 18
+Liam; Banghok; 1900.1.1; 12
+Liam; Banghok; 1900.1.1; 38
+Jack Lin; second street, USA 2; 2001.10.2; 222
+Matiew Smith; First street, Europe 3; 1986.11.9; 33
+Li; Banghok; 1998.1.1; 18
+Liam; Banghok; 1978.1.1; 28
+Mary Cramer; First street, Paris 4; 1960.1.1; 56
+Matiew Smith; First street, Europe 3; 1986.11.9; 33
+Jack; Moscow; 2000.12.12; 13
+Liam; Banghok; 1998.1.1; 31
+Liam; Banghok; 1900.1.1; 58
+Mick; Banghok; 2001.1.1; 48
+Liam; Banghok; 1989.1.1; 64
+Mick Nordor; Paris; 1919.4.1; 101
+Liam; Banghok; 1900.1.1; 118
+Mary Jin; NY; 2000.1.1; 17
+Liana; LA; 1989.8.9; 31
+Liam; Banghok; 1988.1.1; 29

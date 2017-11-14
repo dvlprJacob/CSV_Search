@@ -12,47 +12,31 @@ namespace CSV_Search
     {
         private static void Main(string[] args)
         {
-            string[] names = { "Name String", "Age Int", "BDate DateTime" };
-            Object[] Names = new object[] { "First name", "Last name", "Jahn" };
-            Object[] Ages = new object[] { 14, 53, 23 };
-            Object[] BDate = new object[] { "12.12.2000", "30.09.1990", "12.12.2000" };
+            CSV_Parser parser = new CSV_Parser("table.csv", ';', "TEST");
 
-            //
-            CSV_Table t = new CSV_Table(names, new List<object[]>() { Names, Ages, BDate }, new string[] { "String", "Integer", "Date" });
-            for (int i = 0; i < t.Columns[0].Values.Count(); i++)
-            {
-                for (int j = 0; j < t.Columns.Count(); j++)
-                    Console.Write(t.Columns[j].Values[i] + "  ");
-                Console.WriteLine();
-            }
-            if (new DateTime(2000, 12, 12) == Convert.ToDateTime(t.Columns[2].Values[0]))
-                Console.WriteLine("true");
-            //---------------------------------
-
+            Console.WriteLine(parser.TableName + Environment.NewLine + parser.Table);
             Console.WriteLine();
-            Console.WriteLine("------------------------------------------\n\n");
-            var bdate = Convert.ToDateTime(BDate[0]);
 
-            CSV_Table T = t.Find("BDate DateTime", (object)bdate);
-            Console.WriteLine("Find result on BDay");
+            var res = parser.Table.Find("Address", (object)"Banghok"); // res - null exeption on WriteToFile
+            var res2 = parser.Table.Find("Age", (object)"31");
+            var res3 = parser.Table.Find("Age", (object)31);
+            var res4 = parser.Table.Find("Address", (object)"LA");
 
-            for (int i = 0; i < T.Columns[0].Values.Count(); i++)
-            {
-                for (int j = 0; j < T.Columns.Count(); j++)
-                    Console.Write(T.Columns[j].Values[i] + "  ");
-                Console.WriteLine();
-            }
-            Console.WriteLine("\nTypes\n");
-            Console.Write(T.Columns[0].Values[0] + " birth ");
-            Console.WriteLine(T.Columns[2].Values[0] + "\n");
-            Console.Write(t.Columns[0].ValueType.ToString());
-            Console.Write(T.Columns[0].ValueType.ToString());
-            Console.Write(T.Columns[1].ValueType.ToString());
-            Console.Write(T.Columns[2].ValueType.ToString());
-            Console.WriteLine("\n------------------------------------------\n\n");
-            CSV_Parser parser = new CSV_Parser("table.csv");
-            //CSV_Table res = parser.Table.Find("Name", (object)"Matiew Smith");
-            Console.WriteLine();
+            CSV_Table.WriteToFile(res);
+            Console.WriteLine(String.Format("Find result :\n{0}", res));
+
+            var res11 = parser.Table.Find("Age", (object)31);
+            var res21 = res11.Find("Address", (object)"LA");
+            var rowVal = parser.Table.GetColumnsFromRow(18);
+            List<object[]> row = new List<object[]>();
+            for (int i = 0; i < 4; i++)
+                row.Add(new object[] { rowVal[i] });
+            var head = parser.Table.ColNames;
+            var types = CSV_Table.GetColumnTypesCsvFormat(parser.Table);
+            var res31 = new CSV_Table(head, row, types);
+            CSV_Table.WriteToFile(res31, "OneRowTable");
+
+            Console.WriteLine(res31);
             Console.ReadKey();
         }
     }
