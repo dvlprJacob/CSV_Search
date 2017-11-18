@@ -17,12 +17,12 @@ namespace CSV_Search
             Console.WriteLine(parser.TableName + Environment.NewLine + parser.Table);
             Console.WriteLine();
 
-            var res = parser.Table.Find("Address", (object)"Banghok"); // res - null exeption on WriteToFile
+            var res = parser.Table.Find(new string[] { "Address", "Age", "Name" }, new object[] { (object)"Banghok", (object)31, (object)"Bil" }); // res - null exeption on WriteToFile
             var res2 = parser.Table.Find("Age", (object)"31");
             var res3 = parser.Table.Find("Age", (object)31);
             var res4 = parser.Table.Find("Address", (object)"LA");
 
-            CSV_Table.WriteToFile(res);
+            //CSV_Table.WriteToFile(res);
             Console.WriteLine(String.Format("Find result :\n{0}", res));
 
             var res11 = parser.Table.Find("Age", (object)31);
